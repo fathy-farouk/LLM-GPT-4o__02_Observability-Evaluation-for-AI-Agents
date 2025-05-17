@@ -12,12 +12,12 @@ from langchain.callbacks.manager import CallbackManager
 
 # === Step 1: Set LangSmith tracing variables directly ===
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
-os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+os.environ["LANGCHAIN_API_KEY"] = "XXX"
+os.environ["LANGCHAIN_ENDPOINT"] = "XXXXX"
 os.environ["LANGCHAIN_PROJECT"] = "LLM-GPT4o-Reasoning"
 
 # === Step 2: Set OpenAI Key ===
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "XXXXX"
 
 # === Step 3: Define Tools ===
 def calculator(x: str) -> str:
